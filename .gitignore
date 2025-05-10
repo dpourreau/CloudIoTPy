@@ -60,6 +60,7 @@ Thumbs.db
 # Log files
 sensor_logs
 Logs
+logs
 
 # Config files
 config/*

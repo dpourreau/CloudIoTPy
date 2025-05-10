@@ -1,0 +1,4 @@
+[submodule "sensor_py"]
+	path = sensor_py
+	url = https://github.com/dpourreau/SensorPy.git
+	branch = main

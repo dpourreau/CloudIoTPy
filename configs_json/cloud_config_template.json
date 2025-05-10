@@ -1,0 +1,32 @@
+{
+  "iot_client": {
+    "provider": "aws",
+    "aws": {
+      "client_id": "your_device_name",
+      "endpoint": "your_endpoint",
+      "cert_path": "your_cert_path",
+      "key_path": "your_key_path",
+      "root_ca_path": "your_root_ca_path",
+      "clean_session": false
+    },
+    "azure": {
+      "connection_string": "your_connection_string"
+    }
+  },
+  "offline_storage": {
+    "type": "sqlite",
+    "path": "data/offline_messages.sqlite"
+  },
+  "sensor": {
+    "read_interval": 300,
+    "max_retries": 3,
+    "co2_self_calibration": true,
+    "enable_stc31c": true,
+    "enable_shtc3": true,
+    "enable_sps30": true
+  },
+  "logging": {
+    "logging_level": "INFO",
+    "log_file": "logs/cloudiotpy.log"
+  }
+}
